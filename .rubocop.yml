@@ -1,0 +1,31 @@
+AllCops:
+  Exclude:
+    - 'db/seeds.rb'
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+    - config/initializers/devise.rb
+    - bin/yarn
+    - bin/update
+    - bin/setup
+Style/AsciiComments:
+  Enabled: false
+Documentation:
+  Enabled: false
+Style/LambdaCall:
+  Enabled: false
+Style/MultilineBlockChain:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Metrics/MethodLength:
+  Max: 30
